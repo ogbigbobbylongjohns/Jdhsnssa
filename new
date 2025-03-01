@@ -16,7 +16,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ogbigbobbylongjohns/U
 ]])
 
 TextLabel = AddContent("TextLabel")
-TextLabel.Text = "esp functions"
+TextLabel.Text = "🎯combat functions"
+
+
+
+AddContent("TextButton", "👁️aimbot", [[
+
+
+loadstring(game:HttpGet("https://pastebin.com/raw/m9Q1s7sg"))()
+
+]])
 
 
 AddContent("TextButton", "🚨esp tracers", [[
