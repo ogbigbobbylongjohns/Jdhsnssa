@@ -27,7 +27,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/CHpQhRcv"))()
 ]])
 
 TextLabel = AddContent("TextLabel")
-TextLabel.Text = "auto buy"
+TextLabel.Text = "💵auto buy"
 
 AddContent("TextButton", "🔫buy crate gun [2000$]", [[
 
@@ -35,3 +35,31 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6265.137
 wait(0.1) fireproximityprompt(workspace.Map["crate gun"].PurchasePart.ProximityPrompt)
 
 ]])
+
+
+AddContent("TextButton", "🔫buy desert eagle [1000$]", [[
+
+
+loadstring(game:HttpGet("https://pastebin.com/raw/D97cszju"))()
+
+]])
+
+
+AddContent("TextButton", "🔫buy combat shotgun [1300$]", [[
+
+
+loadstring(game:HttpGet("https://pastebin.com/raw/3hU84tA9"))()
+
+
+]])
+
+AddContent("TextButton", "🔫buy mp5 [1500$]", [[
+ 
+
+loadstring(game:HttpGet("https://pastebin.com/raw/vCpYb2P9"))()
+
+]])
+
+TextLabel = AddContent("TextLabel")
+TextLabel.Text = "🎉Misc"
+
