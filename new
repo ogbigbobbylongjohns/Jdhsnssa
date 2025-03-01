@@ -8,7 +8,7 @@ TextLabel = AddContent("TextLabel")
 TextLabel.Text = "inf cash 40$ required"
 
 
-AddContent("TextButton", "inf cash", [[
+AddContent("TextButton", "💵inf cash", [[
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ogbigbobbylongjohns/Uhh-adia-/refs/heads/main/New"))()
@@ -19,11 +19,19 @@ TextLabel = AddContent("TextLabel")
 TextLabel.Text = "esp functions"
 
 
-AddContent("TextButton", "esp tracers", [[
+AddContent("TextButton", "🚨esp tracers", [[
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ogbigbobbylongjohns/Uhh-adia-/refs/heads/main/New"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/CHpQhRcv"))()
 
 ]])
 
+TextLabel = AddContent("TextLabel")
+TextLabel.Text = "auto buy"
 
+AddContent("TextButton", "🔫buy crate gun [2000$]", [[
+
+
+workspace.Map["crate gun"].PurchasePart.ProximityPrompt
+
+]])
