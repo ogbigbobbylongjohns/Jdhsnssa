@@ -24,10 +24,10 @@ TextLabel.Text = "🎯combat functions"
 
 
 
-AddContent("TextButton", "👁️aimbot", [[
+AddContent("TextButton", "👁️hitbox expander", [[
 
 
-loadstring(game:HttpGet("https://pastebin.com/raw/m9Q1s7sg"))()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
 
 ]])
 
