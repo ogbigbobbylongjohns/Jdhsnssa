@@ -69,6 +69,4 @@ loadstring(game:HttpGet("https://pastebin.com/raw/vCpYb2P9"))()
 
 ]])
 
-TextLabel = AddContent("TextLabel")
-TextLabel.Text = "🎉Misc"
 
