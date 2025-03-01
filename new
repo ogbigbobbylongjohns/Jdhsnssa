@@ -15,3 +15,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ogbigbobbylongjohns/U
 
 ]])
 
+TextLabel = AddContent("TextLabel")
+TextLabel.Text = "esp functions"
+
+
+AddContent("TextButton", "esp tracers", [[
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ogbigbobbylongjohns/Uhh-adia-/refs/heads/main/New"))()
+
+]])
+
+
