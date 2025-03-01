@@ -4,28 +4,14 @@ game.CoreGui.GhostGui.MainFrame.Title.Text = "Title Here"
 ---
 
 
-AddContent("TextButton", "Text Here", [[
---script here need clear--
-]])
-
-
-TextBox = AddContent("TextBox","Text")
-TextBox:GetPropertyChangedSignal("Text"):Connect(function()
-print(TextBox.Text)
-end)
-
-
-AddContent("Toogle", "Text Here", [[
---script here need clear--
-]])
-
-
-AddContent("Switch", "Text Here", [[
---script1 here need clear--
-]],[[
---script2 here need clear--
-]])
-
-
 TextLabel = AddContent("TextLabel")
-TextLabel.Text = "Text Here"
+TextLabel.Text = "inf cash 40$ required"
+
+
+AddContent("TextButton", "inf cash", [[
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ogbigbobbylongjohns/Uhh-adia-/refs/heads/main/New"))()
+
+]])
+
