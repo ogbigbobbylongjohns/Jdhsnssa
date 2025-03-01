@@ -31,7 +31,7 @@ TextLabel.Text = "auto buy"
 
 AddContent("TextButton", "🔫buy crate gun [2000$]", [[
 
-
-workspace.Map["crate gun"].PurchasePart.ProximityPrompt
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6265.1377, 7484.27686, 9552.2832, -1, 0, 0, 0, 1, 0, 0, 0, -1) wait (0.1) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6265.1377, 7484.27686, 9552.2832, -1, 0, 0, 0, 1, 0, 0, 0, -1) 
+wait(0.1) fireproximityprompt(workspace.Map["crate gun"].PurchasePart.ProximityPrompt)
 
 ]])
